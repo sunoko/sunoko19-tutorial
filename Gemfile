@@ -26,6 +26,10 @@ gem 'grape-swagger-rails'
 # gem 'grape-swagger-entity'
 gem 'grape-swagger'
 
+# for haml
+gem 'haml-rails'
+gem 'erb2haml'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
