@@ -19,6 +19,12 @@ gem 'jbuilder',                '2.7.0'
 
 # for api
 gem 'grape'
+# gem 'grape-entity'
+
+# for swagger
+gem 'grape-swagger-rails'
+# gem 'grape-swagger-entity'
+gem 'grape-swagger'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'

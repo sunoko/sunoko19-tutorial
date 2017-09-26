@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   resources :relationships,       only: [:create, :destroy]
 
   mount API::Root => '/'
+  mount GrapeSwaggerRails::Engine => "/docs"
 end
