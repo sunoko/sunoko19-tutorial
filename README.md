@@ -1,61 +1,18 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial 機能追加
 
-This is the reference implementation of the sample application for the 4th edition of [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://www.railstutorial.org/) by [Michael Hartl](http://www.michaelhartl.com/).
+## API
+`grape`を使用して実装
+バージョン管理可能
+![](https://user-images.githubusercontent.com/12602019/30894982-22087614-a382-11e7-9198-014087128b70.png)
 
-## License
+## API Document
+`grape-swagger-rails`, `grape-swagger`を使用して実装
 
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/) is available jointly under the MIT License and the Beerware License. See [LICENSE.md](LICENSE.md) for details.
+## haml導入
+`haml-rails`, `erb2haml`を使用して導入
 
-## Getting started
+## 検索機能
+ユーザー検索、各ユーザーのマイクロポスト検索、自分のマイクロポスト検索を実装
 
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ cd ~/tmp
-$ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git sample_app
-$ cd sample_app
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-On Cloud9, this command should be
-
-```
-$ rails server -b $IP -p $PORT
-```
-
-instead.
-
-To check out the code for a particular chapter, use
-
-```
-$ git checkout chapter-branch-name
-```
-
-where you can find the branch name using
-
-```
-$ git branch -a
-```
-
-A branch called `remotes/orgin/foo-bar` can be checked out using `git checkout foo-bar`.
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+## N+1問題対策
+`bullet`を導入
