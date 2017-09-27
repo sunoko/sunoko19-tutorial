@@ -1,3 +1,5 @@
+- provide(:search_name, 'My Content Search')
+- provide(:title, root_path)
 - if logged_in?
   .row
     %aside.col-md-4
@@ -9,6 +11,9 @@
         = render 'shared/micropost_form'
     .col-md-8
       %h3 Micropost Feed
+      
+      = render 'users/search'
+      
       = render 'shared/feed'
 - else
   .center.jumbotron
