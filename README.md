@@ -20,3 +20,11 @@
 ## N+1問題対策
 `bullet`を導入
 ![bullet](https://user-images.githubusercontent.com/12602019/30895193-89af39c8-a383-11e7-9b23-b2ffbd3c1924.png)
+
+## RSpec導入
+## CI連携
+## Facebookログイン
+## 通知機能
+## いいね機能
+## 返信機能
+## DM機能
