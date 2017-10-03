@@ -88,6 +88,8 @@ GEM
     faker (1.7.3)
       i18n (~> 0.5)
     ffi (1.9.18)
+    figaro (1.1.1)
+      thor (~> 0.14)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
     fog (1.40.0)
@@ -430,6 +432,7 @@ DEPENDENCIES
   coffee-rails (= 4.2.2)
   erb2haml
   faker (= 1.7.3)
+  figaro (~> 1.1.0)
   fog (= 1.40.0)
   grape
   grape-swagger
